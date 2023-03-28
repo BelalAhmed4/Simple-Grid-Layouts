@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+  <style>
+    * {
+      font-weight: bold;
+      box-sizing: border-box;
+      padding: 0;
+      margin: 0;
+      font-weight: bold;
+      font-family: Sans-Serif;
+      font-size: 20px;
+    }
+
+    .container {
+      background-color: #2D2F43;
+      position: absolute;
+      left: 50%;
+      top: 50%;
+      transform: translateX(-50%) translateY(-50%);
+      width: 70%;
+      height: 500px;
+
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      grid-template-rows: repeat(2, 1fr);
+      gap: 10px 10px;
+      outline: 5px solid black;
+      /* justify-items: center; */
+
+    }
+
+    .one {
+      padding: 1rem;
+      background-color: #00A885;
+    }
+
+    .two {
+      padding: 1rem;
+      background-color: #1AC1A3;
+    }
+
+    .three {
+      padding: 1rem;
+      background-color: lightgreen;
+    }
+
+    .four {
+      padding: 1rem;
+      background-color: #FC9F61;
+    }
+
+    .five {
+      padding: 1rem;
+      background-color: orangered;
+    }
+
+    .six {
+      padding: 1rem;
+      background-color: #FE825C;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="container">
+    <div class="one item">
+      one
+    </div>
+    <div class="two item">
+      two
+    </div>
+    <div class="three item">
+      three
+    </div>
+    <div class="four item">
+      four
+    </div>
+    <div class="five item">
+      five
+    </div>
+    <div class="six item">
+      six
+    </div>
+
+
+
+  </div>
+</body>
+
+</html>
